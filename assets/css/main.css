@@ -29,6 +29,22 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;}
 
+
+/* Add this to your CSS file */
+.about-me-section {
+    margin: 0 10rem; /* Add some margin to the left and right of the section */
+}
+
+.flex-container {
+    display: flex; /* Enable flexbox layout */
+    align-items: flex-start; /* Align items to the top */
+    gap: 1rem; /* Add some space between the image and the text */
+    width: 100%; /* Set the width of the container to 100% */
+    box-sizing: border-box; /* Include padding and border in the element's total width and height */
+   
+}
+
+
 body {
 	line-height: 1;
 }
